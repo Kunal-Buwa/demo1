@@ -14,7 +14,7 @@ var mongoose=require("mongoose");
 mongoose.promise=global.promise;
 
 //connection url
-        // mongodb://<server ip address>:port/<databse name.>
+        // mongodb://<server ip address>:port/<databse name>
 const url='mongodb://localhost:27017/test'
 
 //to make mongodb connection asynchronously
